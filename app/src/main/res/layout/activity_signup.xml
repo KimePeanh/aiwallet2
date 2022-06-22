@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".signup">
+
+    <TextView
+        android:fontFamily="@font/ab"
+        android:layout_marginTop="20dp"
+        android:text="@string/signup"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:fontFamily="@font/ab"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/appcolor"
+        android:text="@string/createacc"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <EditText
+            android:id="@+id/namme"
+            android:fontFamily="@font/ab"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textedt_border"
+            android:padding="8dp"
+            android:hint="Abc..."
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:layout_width="match_parent"
+
+            android:layout_height="48dp"/>
+        <TextView
+            android:fontFamily="@font/ab"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ok"
+            android:textColor="@color/white"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="USERNAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:fontFamily="@font/ab"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textedt_border"
+            android:padding="8dp"
+            android:hint="012330..."
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:layout_width="match_parent"
+
+            android:layout_height="48dp"/>
+        <TextView
+            android:fontFamily="@font/ab"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ok"
+            android:textColor="@color/white"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="EMAIL OR PHONE NUMBER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <EditText
+            android:id="@+id/ps"
+            android:fontFamily="@font/ab"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textedt_border"
+            android:padding="8dp"
+            android:hint="********"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:layout_width="match_parent"
+
+            android:layout_height="48dp"/>
+        <TextView
+            android:id="@+id/password"
+            android:fontFamily="@font/ab"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ok"
+            android:textColor="@color/white"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:text="PASSWORD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:fontFamily="@font/ab"
+            android:textColor="@color/grey"
+            android:text="By creating an account you agree with our terms and conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_signup"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@drawable/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:fontFamily="@font/ab"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:text="Create an account"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include layout="@layout/signinwith"/>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:fontFamily="@font/ab"
+            android:id="@+id/have"
+            android:text="Don't have an account? Sign in"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

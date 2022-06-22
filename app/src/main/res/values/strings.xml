@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">aiwallet</string>
+    <string name="login">LOGIN</string>
+    <string name="Signoyouraccount">Sign to your account</string>
+    <string name="forget">Forgot Password?</string>
+    <string name="signup">Signup</string>
+    <string name="createacc">Create your account</string>
+</resources>
