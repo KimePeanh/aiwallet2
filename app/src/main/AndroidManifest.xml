@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.aiwallet">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aiwallet"
         tools:targetApi="31">
-
+        <activity
+            android:name=".activity_dialog"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,7 +30,8 @@
         <activity android:name=".login" />
         <activity android:name=".signup" />
         <activity android:name=".home" />
-        <activity android:name=".wallet"/>
+        <activity android:name=".wallet" />
+        <activity android:name=".qrcode"/>
     </application>
 
 </manifest>

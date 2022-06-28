@@ -90,6 +90,11 @@ public class home extends AppCompatActivity {
             Intent intent = new Intent(this, login.class);
             startActivity(intent);
         });
+        binding.icQr.setOnClickListener(v -> {
+            Intent intent = new Intent(this, qrcode.class);
+            startActivity(intent);
+        });
+
     }
     ImageView mIcon_val;
     public void UserData(){

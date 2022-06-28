@@ -45,6 +45,7 @@ public class signup extends AppCompatActivity {
         setContentView(binding.getRoot());
         mAuth = FirebaseAuth.getInstance();
         fstore = FirebaseFirestore.getInstance();
+
         setonclick();
     }
 
@@ -81,6 +82,8 @@ public class signup extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
                                 Log.d(TAG, "createUserWithEmail:success");
+                                wallet.put("KHR", "0");
+                                wallet.put("USD", "0");
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 DocumentReference documentReference = fstore.collection("Users").document(user.getUid().toString());
                                 Map<String,Object> userdata = new HashMap<>();

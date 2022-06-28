@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/add_balance.xml" value="0.174" />
+        <entry key="app/src/main/res/drawable/addbtn.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.177" />
         <entry key="app/src/main/res/drawable/btn_login.xml" value="0.184" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.199" />
@@ -10,12 +12,16 @@
         <entry key="app/src/main/res/drawable/nav_header.xml" value="0.2565" />
         <entry key="app/src/main/res/drawable/ok.xml" value="0.146" />
         <entry key="app/src/main/res/drawable/shadow.xml" value="0.184" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/textedt_border.xml" value="0.146" />
+        <entry key="app/src/main/res/layout/activity_dialog.xml" value="0.3223958333333333" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.33125" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_qr_code.xml" value="0.3223958333333333" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.33125" />
         <entry key="app/src/main/res/layout/activity_wallet.xml" value="0.315625" />
+        <entry key="app/src/main/res/layout/drop_down_items.xml" value="0.32135416666666666" />
         <entry key="app/src/main/res/layout/menu.xml" value="0.3302083333333333" />
         <entry key="app/src/main/res/layout/nav_header.xml" value="0.322463768115942" />
         <entry key="app/src/main/res/layout/signinwith.xml" value="0.3302083333333333" />

@@ -5,4 +5,8 @@
     <string name="forget">Forgot Password?</string>
     <string name="signup">Signup</string>
     <string name="createacc">Create your account</string>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>KHR</item>
+    </string-array>
 </resources>
